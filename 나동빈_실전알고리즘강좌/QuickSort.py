@@ -1,7 +1,8 @@
 def QuickSort(Array):
+    import random
     if len(Array)<=1:
         return Array
-    pivot = Array[len(Array)//2]
+    pivot = Array[random.randint(0, (len(Array)-1))]
     less_pivot, over_pivot = [], []
     for num in Array:
         if num > pivot:
