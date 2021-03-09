@@ -1,3 +1,5 @@
+## source of code: https://itholic.github.io/python-bfs-dfs/
+
 graph = {
     'A': ['B'],
     'B': ['A', 'C', 'H'],
